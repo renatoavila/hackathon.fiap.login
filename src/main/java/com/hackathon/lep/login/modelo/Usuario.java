@@ -19,7 +19,9 @@ public class Usuario extends Entidade<Integer> {
 	private String email;	
 
 	private String senha;
-	 	 
-	private Boolean ativo = true;
+
+	private Boolean ativo = true;	
+	
+	private Boolean atendente = false;
    
 }
